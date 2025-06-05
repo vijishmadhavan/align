@@ -1,0 +1,15 @@
+{
+    "name": "Face Alignment (InsightFace)",
+    "description": "Aligns faces between images using InsightFace landmark detection. Perfect for aligning start and end frames in video workflows.",
+    "author": "ComfyUI Community",
+    "version": "1.0.0",
+    "tags": ["image processing", "face", "alignment", "insightface"],
+    "requirements": ["insightface", "opencv-python", "numpy"],
+    "nodename": "FaceAlignment",
+    "display_name": "Face Alignment (InsightFace)",
+    "category": "image/processing",
+    "install_type": "copy",
+    "files": [
+        "face_alignment_node.py"
+    ]
+} 
